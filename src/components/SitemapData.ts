@@ -15,57 +15,51 @@ export const sitemapData: SitemapSection[] = [
     "title": "Main Pages",
     "items": [
       {
-        "num": "1.",
-        "to": "/",
-        "title": "Home",
-        "description": "XTASS homepage with booking form and service overview"
-      },
-      {
         "num": "2.",
         "to": "/sitemap",
-        "title": "Sitemap",
+        "title": "XTASS Site Directory",
         "description": "Full directory of every page on the XTASS platform"
       },
       {
         "num": "3.",
         "to": "/start-reservation",
-        "title": "Start a Reservation",
+        "title": "Reserve a Vehicle",
         "description": "The main booking entry page with the full reservation form"
       },
       {
         "num": "4.",
         "to": "/manage-reservation",
-        "title": "Manage Reservation",
+        "title": "View, Modify, or Cancel Reservation",
         "description": "Look up and modify or cancel an existing booking"
       },
       {
         "num": "5.",
         "to": "/service-areas",
-        "title": "Service Areas",
+        "title": "XTASS Service Areas",
         "description": "View the regions, cities, and airports where XTASS operates"
       },
       {
         "num": "6.",
         "to": "/pricing",
-        "title": "Pricing Information",
+        "title": "XTASS Pricing Policy",
         "description": "Learn about our fixed, all-inclusive pricing structure"
       },
       {
         "num": "7.",
         "to": "/safety-guidelines",
-        "title": "Safety Guidelines",
+        "title": "XTASS Safety Standards",
         "description": "Review our driver vetting and vehicular inspection standards"
       },
       {
         "num": "8.",
         "to": "/careers",
-        "title": "Careers",
+        "title": "Careers at XTASS",
         "description": "Join the XTASS team as a driver or corporate professional"
       },
       {
         "num": "9.",
         "to": "/press",
-        "title": "Press & Media",
+        "title": "Press &amp; Media",
         "description": "Official announcements and brand assets for journalists"
       },
       {
@@ -77,7 +71,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "11.",
         "to": "/rental-faqs",
-        "title": "Rental FAQs",
+        "title": "Car Rental FAQs",
         "description": "Frequently asked questions about car rental rates and policies"
       },
       {
@@ -89,13 +83,13 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "13.",
         "to": "/lost-found",
-        "title": "Lost & Found",
+        "title": "Lost &amp; Found",
         "description": "Report and track items left behind in a vehicle"
       },
       {
         "num": "14.",
         "to": "/terms-conditions",
-        "title": "Terms & Conditions",
+        "title": "Terms &amp; Conditions",
         "description": "Full legal terms governing the use of the XTASS platform"
       },
       {
@@ -113,7 +107,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "17.",
         "to": "/refund-cancel-policy",
-        "title": "Refund & Cancellation",
+        "title": "Refund &amp; Cancellation",
         "description": "Transparent policies for changes and cancellations"
       },
       {
@@ -137,7 +131,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "21.",
         "to": "/compliance-safety",
-        "title": "Compliance & Safety Policy",
+        "title": "Compliance &amp; Safety",
         "description": "Regulatory compliance and vehicle standards"
       },
       {
@@ -172,25 +166,25 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "26.",
         "to": "/instant-pickup",
-        "title": "Instant Pickup",
+        "title": "INSTANT PICKUP —ON-DEMAND TRANSPORT",
         "description": "On-demand transport — nearest driver dispatched immediately"
       },
       {
         "num": "27.",
         "to": "/scheduled-pickup",
-        "title": "Scheduled Pickup",
+        "title": "SCHEDULED PICKUP —PLAN AHEAD",
         "description": "Plan and pre-book your ride for any future date and time"
       },
       {
         "num": "28.",
         "to": "/airport-transfers",
-        "title": "Airport Transfers",
+        "title": "Airport Transfers —\n              Reliable Connections",
         "description": "Reliable airport connections at all 6 Ghana airports"
       },
       {
         "num": "29.",
         "to": "/group-transportation",
-        "title": "Group Transportation",
+        "title": "Group Transportation —\n              Everyone Travels Together",
         "description": "Larger vehicles for families, events, and team travel"
       },
       {
@@ -202,37 +196,37 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "31.",
         "to": "/one-way-rental",
-        "title": "One-Way Rental",
+        "title": "One-Way Rental —\n              Pick Up Here, Drop Off There",
         "description": "Pick up at one location, drop off at another"
       },
       {
         "num": "32.",
         "to": "/long-term-rental",
-        "title": "Long-Term Rental",
+        "title": "Take Advantage of Weekly &amp; Monthly Rates",
         "description": "Weekly or monthly rental discounts with unlimited mileage"
       },
       {
         "num": "33.",
         "to": "/weekend-rental",
-        "title": "Weekend Rental",
+        "title": "Your Weekend,\n              Your Way",
         "description": "Off-peak weekend rental rates with flexible Sunday returns"
       },
       {
         "num": "34.",
         "to": "/vehicle-fleet",
-        "title": "Vehicle Fleet",
+        "title": "XTASS Vehicle Fleet",
         "description": "Complete details and classifications of the XTASS fleet"
       },
       {
         "num": "35.",
         "to": "/vehicle-comparison",
-        "title": "Vehicle Comparison",
+        "title": "Compare Vehicles",
         "description": "Compare specifications to choose the right vehicle"
       },
       {
         "num": "36.",
         "to": "/available-vehicles",
-        "title": "Available Vehicles",
+        "title": "Available Rides",
         "description": "List of available vehicles for the selected ride type"
       },
       {
@@ -250,7 +244,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "39.",
         "to": "/driver-details/d1",
-        "title": "Driver Details",
+        "title": "Driver Assigned",
         "description": "Profile of the assigned XTASS driver and vehicle"
       },
       {
@@ -262,13 +256,13 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "41.",
         "to": "/payment-processing",
-        "title": "Payment Processing",
+        "title": "Processing",
         "description": "Loading and success/failure states for payment"
       },
       {
         "num": "42.",
         "to": "/rental-confirmation",
-        "title": "Rental Booking Confirmation",
+        "title": "Review & Reserve",
         "description": "Review details specific to car rentals before reserving"
       }
     ]
@@ -279,25 +273,25 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "43.",
         "to": "/signin",
-        "title": "Sign In",
+        "title": "Customer Login",
         "description": "Log in to your XTASS customer account"
       },
       {
         "num": "44.",
         "to": "/register",
-        "title": "Register",
+        "title": "Create Account",
         "description": "Create a new XTASS customer account"
       },
       {
         "num": "45.",
         "to": "/forgot-password",
-        "title": "Forgot Password",
+        "title": "Forgot Password?",
         "description": "Reset your password via email or phone number"
       },
       {
         "num": "46.",
         "to": "/verify-otp",
-        "title": "OTP Verification",
+        "title": "Verify Your Identity",
         "description": "Verify your identity using a 6-digit one-time code"
       },
       {
@@ -309,43 +303,43 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "48.",
         "to": "/post-login-verification",
-        "title": "Post-Login Verification",
+        "title": "Verifying Identity...",
         "description": "Security interstitial after successful login"
       },
       {
         "num": "49.",
         "to": "/booking/step-1",
-        "title": "Booking Step 1: Trip Details",
+        "title": "Trip Details",
         "description": "Select trip type, location, schedule, and passenger requirements"
       },
       {
         "num": "50.",
         "to": "/booking/step-2",
-        "title": "Booking Step 2: Location & Schedule",
+        "title": "Location & Schedule",
         "description": "Visual confirmation of trip details"
       },
       {
         "num": "51.",
         "to": "/booking/step-3",
-        "title": "Booking Step 3: Choose Vehicle",
+        "title": "Choose a Vehicle",
         "description": "Browse and filter premium fleet options"
       },
       {
         "num": "52.",
         "to": "/booking/step-4",
-        "title": "Booking Step 4: Optional Extras",
+        "title": "Optional Extras",
         "description": "Add protection coverages and equipment add-ons"
       },
       {
         "num": "53.",
         "to": "/booking/step-5",
-        "title": "Booking Step 5: Review & Reserve",
+        "title": "Review & Reserve",
         "description": "Review details, policies, and confirm booking"
       },
       {
         "num": "54.",
         "to": "/booking-confirmation",
-        "title": "Booking Confirmation",
+        "title": "Booking Confirmed!",
         "description": "Success screen with assigned booking ID and summary"
       },
       {
@@ -357,13 +351,13 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "56.",
         "to": "/trip-receipt",
-        "title": "Trip Receipt",
+        "title": "Trip Completed",
         "description": "Completed trip summary, fare breakdown, and rating prompt"
       },
       {
         "num": "57.",
         "to": "/dashboard",
-        "title": "Customer Dashboard",
+        "title": "Dashboard",
         "description": "Personalized home screen with upcoming trips and booking shortcuts"
       },
       {
@@ -381,13 +375,13 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "60.",
         "to": "/modify-booking/XTA-12345",
-        "title": "Modify Booking",
+        "title": "Modify Reservation",
         "description": "Change details of an upcoming booking"
       },
       {
         "num": "61.",
         "to": "/cancel-booking/XTA-12345",
-        "title": "Cancel Booking",
+        "title": "Cancel Reservation",
         "description": "Cancel an upcoming booking"
       },
       {
@@ -405,7 +399,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "64.",
         "to": "/profile-edit",
-        "title": "Profile Edit",
+        "title": "Edit Profile",
         "description": "Update personal profile information"
       },
       {
@@ -423,7 +417,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "67.",
         "to": "/saved-payment-methods",
-        "title": "Saved Payment Methods",
+        "title": "Payment Methods",
         "description": "Manage saved credit cards and mobile money accounts"
       },
       {
@@ -441,13 +435,13 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "70.",
         "to": "/notification-preferences",
-        "title": "Notification Preferences",
+        "title": "Notifications",
         "description": "Control SMS, email, and in-app alert settings"
       },
       {
         "num": "71.",
         "to": "/recently-viewed",
-        "title": "Recently Viewed & Favourites",
+        "title": "Saved & History",
         "description": "List of saved and recently visited vehicles"
       }
     ]
@@ -458,20 +452,50 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "72.",
         "to": "/admin/login",
-        "title": "Admin Login",
+        "title": "Admin Portal",
         "description": "Secure login for authorised staff"
       },
       {
         "num": "73.",
         "to": "/admin/recovery",
-        "title": "Admin Password Recovery",
+        "title": "Admin Recovery",
         "description": "Password reset flow for admins"
       },
       {
         "num": "74.",
         "to": "/admin/dashboard",
-        "title": "Admin Dashboard Overview",
+        "title": "Overview Dashboard",
         "description": "High-level view of platform operational status"
+      },
+      {
+        "num": "74.1",
+        "to": "/admin/content",
+        "title": "Content Management",
+        "description": "Central hub for content management"
+      },
+      {
+        "num": "74.2",
+        "to": "/admin/reports",
+        "title": "Reports & Analytics",
+        "description": "Central hub for analytics and reports"
+      },
+      {
+        "num": "74.3",
+        "to": "/admin/settings",
+        "title": "System Settings",
+        "description": "Global platform configuration hub"
+      },
+      {
+        "num": "74.4",
+        "to": "/admin/logs",
+        "title": "Audit Logs",
+        "description": "Central hub for technical and activity logs"
+      },
+      {
+        "num": "74.5",
+        "to": "/admin/support",
+        "title": "Support Helpdesk",
+        "description": "Helpdesk and ticket management"
       },
       {
         "num": "75.",
@@ -512,7 +536,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "81.",
         "to": "/admin/fleet/add",
-        "title": "Add Vehicle",
+        "title": "Add New Vehicle",
         "description": "Form for registering a new company-owned vehicle"
       },
       {
@@ -524,43 +548,43 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "83.",
         "to": "/admin/fleet/V-101",
-        "title": "Vehicle Detail",
+        "title": "Toyota Camry 2023",
         "description": "Full profile view for a single fleet vehicle"
       },
       {
         "num": "84.",
         "to": "/admin/fleet/V-101/availability",
-        "title": "Vehicle Availability",
+        "title": "Availability Calendar",
         "description": "Month-view calendar showing availability status"
       },
       {
         "num": "85.",
         "to": "/admin/fleet/V-101/maintenance",
-        "title": "Vehicle Maintenance",
+        "title": "Maintenance Log",
         "description": "Complete maintenance history and logging"
       },
       {
         "num": "86.",
         "to": "/admin/fleet/pricing",
-        "title": "Vehicle Classes & Pricing",
+        "title": "Classes & Pricing",
         "description": "Editable rate matrix for setting pricing across classes"
       },
       {
         "num": "87.",
         "to": "/admin/fleet/V-101/images",
-        "title": "Vehicle Images",
+        "title": "Image Management",
         "description": "Manage photos displayed for a specific vehicle"
       },
       {
         "num": "88.",
         "to": "/admin/locations",
-        "title": "All Locations",
+        "title": "Service Locations",
         "description": "List of all service locations"
       },
       {
         "num": "89.",
         "to": "/admin/locations/add",
-        "title": "Add Location",
+        "title": "Add New Location",
         "description": "Form for adding a new service location"
       },
       {
@@ -572,55 +596,55 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "91.",
         "to": "/admin/locations/LOC-001",
-        "title": "Location Detail",
+        "title": "Kotoka International Airport (ACC)",
         "description": "Full profile view for a single location"
       },
       {
         "num": "92.",
         "to": "/admin/customers",
-        "title": "Customer List",
+        "title": "Customers",
         "description": "List of all registered customers"
       },
       {
         "num": "93.",
         "to": "/admin/customers/CUST-001",
-        "title": "Customer Profile",
+        "title": "Kwame Mensah",
         "description": "Full customer profile in the admin panel"
       },
       {
         "num": "94.",
         "to": "/admin/customers/CUST-001/bookings",
-        "title": "Customer Bookings",
+        "title": "Booking History",
         "description": "Complete booking history for a specific customer"
       },
       {
         "num": "95.",
         "to": "/admin/customers/CUST-001/payments",
-        "title": "Customer Payments",
+        "title": "Payment Records",
         "description": "Admin view of all customer payment transactions"
       },
       {
         "num": "96.",
         "to": "/admin/drivers",
-        "title": "Driver List",
+        "title": "Drivers",
         "description": "Complete roster of all employed XTASS drivers"
       },
       {
         "num": "97.",
         "to": "/admin/drivers/earnings",
-        "title": "Driver Earnings Overview",
+        "title": "Earnings",
         "description": "All driver earnings records and withdrawal management"
       },
       {
         "num": "98.",
         "to": "/admin/rates",
-        "title": "Rate Dashboard",
+        "title": "Rate Management",
         "description": "Admin screen for viewing and editing platform pricing"
       },
       {
         "num": "99.",
         "to": "/admin/rates/add",
-        "title": "Add Custom Rate",
+        "title": "Create Custom Rate",
         "description": "Form for creating or editing rate rules"
       },
       {
@@ -632,13 +656,13 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "101.",
         "to": "/admin/extras/equipment",
-        "title": "Equipment Management",
+        "title": "Equipment & Accessories",
         "description": "Manage equipment accessories available in booking"
       },
       {
         "num": "102.",
         "to": "/admin/extras/equipment/add",
-        "title": "Add Extra Item",
+        "title": "Add/Edit Extra Item",
         "description": "Form for creating or updating extra items"
       },
       {
@@ -656,13 +680,13 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "105.",
         "to": "/admin/content/articles",
-        "title": "Article List",
+        "title": "Articles & News",
         "description": "List of all blog and news articles"
       },
       {
         "num": "106.",
         "to": "/admin/articles/add",
-        "title": "Add/Edit Article",
+        "title": "Create Article",
         "description": "Full editor for blog posts and news"
       },
       {
@@ -680,13 +704,13 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "109.",
         "to": "/admin/content/vehicles",
-        "title": "Vehicle Type Pages Management",
+        "title": "Vehicle Type Pages",
         "description": "Edits the content of the three vehicle type detail pages"
       },
       {
         "num": "110.",
         "to": "/admin/content/services",
-        "title": "Service Pages Management",
+        "title": "Service Pages Editor",
         "description": "Edits the content of each service detail page"
       },
       {
@@ -704,7 +728,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "113.",
         "to": "/admin/reports/fleet",
-        "title": "Vehicle Utilisation Report",
+        "title": "Vehicle Utilisation",
         "description": "Analytics showing how efficiently the fleet is used"
       },
       {
@@ -716,7 +740,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "115.",
         "to": "/admin/reports/drivers",
-        "title": "Driver Performance Report",
+        "title": "Driver Performance",
         "description": "Analytics comparing performance metrics across drivers"
       },
       {
@@ -758,7 +782,7 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "122.",
         "to": "/admin/settings/airports",
-        "title": "Supported Airports & Locations",
+        "title": "Supported Airports",
         "description": "Manages airports served as service locations"
       },
       {
@@ -782,109 +806,109 @@ export const sitemapData: SitemapSection[] = [
       {
         "num": "126.",
         "to": "/admin/operations/live",
-        "title": "Live Operations Dashboard",
+        "title": "Live Operations",
         "description": "Real-time overview of all platform trips"
       },
       {
         "num": "127.",
         "to": "/admin/operations/map",
-        "title": "Active Trips Map Screen",
+        "title": "Active Trips",
         "description": "Full-width map view showing active XTASS driver positions"
       },
       {
         "num": "128.",
         "to": "/admin/logs/activity",
-        "title": "Activity Log Screen",
+        "title": "Activity Log",
         "description": "Timestamped record of all admin actions"
       },
       {
         "num": "129.",
         "to": "/admin/logs/system",
-        "title": "System Events Log Screen",
+        "title": "System Events Log",
         "description": "Automated system event log tracking"
       },
       {
         "num": "130.",
         "to": "/admin/settings/sitemap",
-        "title": "Sitemap Overview Screen",
+        "title": "Sitemap Overview",
         "description": "Admin view of the public Sitemap page"
       },
       {
         "num": "131.",
         "to": "/driver/login",
-        "title": "Driver Login Screen",
+        "title": "Driver Gateway",
         "description": "Login for employed XTASS drivers"
       },
       {
         "num": "132.",
         "to": "/driver/forgot-password",
-        "title": "Driver Password Recovery",
+        "title": "Password Reset",
         "description": "Password reset for employed drivers"
       },
       {
         "num": "133.",
         "to": "/driver/setup-password",
-        "title": "Driver Setup Password",
+        "title": "Secure Your Account",
         "description": "First-time login password setup"
       },
       {
         "num": "134.",
         "to": "/driver/profile",
-        "title": "My Employment Profile",
+        "title": "My Profile",
         "description": "Read-only employment profile"
       },
       {
         "num": "135.",
         "to": "/driver/vehicle",
-        "title": "Assigned Vehicle Screen",
+        "title": "Assigned Vehicle",
         "description": "Details of assigned company vehicle"
       },
       {
         "num": "136.",
         "to": "/driver/dashboard",
-        "title": "Driver Dashboard Screen",
+        "title": "Driver Dashboard",
         "description": "Main screen for employed XTASS drivers"
       },
       {
         "num": "137.",
         "to": "/driver/trip-request",
-        "title": "Trip Request Screen",
+        "title": "New Booking Request Nearby",
         "description": "Read-only incoming booking request details"
       },
       {
         "num": "138.",
         "to": "/driver/trip-management",
-        "title": "Trip Management Screen",
+        "title": "Booking Details",
         "description": "Active trip progression and controls"
       },
       {
         "num": "139.",
         "to": "/driver/trip-completion",
-        "title": "Trip Completion Screen",
+        "title": "Trip Completed",
         "description": "Fare summary and passenger rating"
       },
       {
         "num": "140.",
         "to": "/driver/earnings",
-        "title": "Earnings Dashboard Screen",
+        "title": "Driver Earnings Overview",
         "description": "Driver's detailed earnings history and daily/weekly charts"
       },
       {
         "num": "141.",
         "to": "/driver/settings",
-        "title": "Driver Settings Screen",
+        "title": "Driver Settings",
         "description": "Notification and app preferences"
       },
       {
         "num": "142.",
         "to": "/driver/support",
-        "title": "Driver Support Screen",
+        "title": "Support & Resources",
         "description": "Contact operations and report issues"
       },
       {
         "num": "143.",
         "to": "/driver/history",
-        "title": "Driver Trip History Screen",
+        "title": "Trip History",
         "description": "Complete history of all completed trips"
       }
     ]

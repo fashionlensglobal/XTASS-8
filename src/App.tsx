@@ -154,6 +154,13 @@ import DriverSettings from './components/driver/DriverSettings';
 import DriverSupport from './components/driver/DriverSupport';
 import DriverTripHistory from './components/driver/DriverTripHistory';
 
+import ContentHub from './components/admin/ContentHub';
+import ReportsHub from './components/admin/ReportsHub';
+import SettingsHub from './components/admin/SettingsHub';
+import AdminLogsHub from './components/admin/AdminLogsHub';
+import SupportTickets from './components/admin/SupportTickets';
+import GlobalNavigation from './components/GlobalNavigation';
+
 function Layout({ children }: { children: React.ReactNode }) {
   const location = useLocation();
   const isSessionTimeout = location.pathname === '/session-timeout';
@@ -179,6 +186,7 @@ function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <BrowserRouter>
+      <GlobalNavigation />
       <Layout>
         <Routes>
           <Route path="/" element={<MainContent />} />
@@ -186,6 +194,11 @@ export default function App() {
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin/recovery" element={<AdminPasswordRecovery />} />
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
+          <Route path="/admin/content" element={<ContentHub />} />
+          <Route path="/admin/reports" element={<ReportsHub />} />
+          <Route path="/admin/settings" element={<SettingsHub />} />
+          <Route path="/admin/logs" element={<AdminLogsHub />} />
+          <Route path="/admin/support" element={<SupportTickets />} />
           <Route path="/admin/reservations" element={<AllReservations />} />
           <Route path="/admin/reservations/create" element={<CreateReservation />} />
           <Route path="/admin/reservations/:id" element={<ReservationDetail />} />

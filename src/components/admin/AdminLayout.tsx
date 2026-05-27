@@ -13,11 +13,12 @@ export default function AdminLayout({ children }: Props) {
   const navigation = [
     { name: 'Dashboard overview', href: '/admin/dashboard', icon: LayoutDashboard },
     { name: 'All Reservations', href: '/admin/reservations', icon: CalendarDays },
-    { name: 'Live Operations', href: '#', icon: Activity, badge: 3 },
-    { name: 'Fleet Management', href: '#', icon: CarFront },
-    { name: 'Driver Roster', href: '#', icon: Users },
-    { name: 'Reports', href: '#', icon: FileText },
-    { name: 'Settings', href: '#', icon: Settings },
+    { name: 'Live Operations', href: '/admin/operations/live', icon: Activity, badge: 3 },
+    { name: 'Fleet Management', href: '/admin/fleet', icon: CarFront },
+    { name: 'Driver Roster', href: '/admin/drivers', icon: Users },
+    { name: 'Content', href: '/admin/content', icon: FileText },
+    { name: 'Reports', href: '/admin/reports', icon: FileText },
+    { name: 'Settings', href: '/admin/settings', icon: Settings },
   ];
 
   return (
